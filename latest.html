@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div id="header"></div>
+    <div id="box"></div>
+</body>
+</html>
+<script type="module">
+    let header= document.getElementById('header')
+    let showDiv=document.getElementById('box')
+    import x from "./container/nav.js"
+    //console.log(x)
+    header.innerHTML=x()
+
+    function getFood()
+    {
+        alert("done")
+    }
+    import {getDetails,appendData} from "./container/main.js"
+//console.log(getData)
+//document.getElementById('btn1').addEventListener("click",getData)
+
+
+
+     //let input=document.getElementById('search').value;
+     //console.log(input)
+     let response= await getDetails(`https://www.themealdb.com/api/json/v1/1/random.php`)
+      console.log(response)
+      appendData(response,showDiv)
+    
+
+
+</script>

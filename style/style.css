@@ -1,0 +1,95 @@
+body
+{
+    
+
+    background-color: #f7c6cc;
+}
+#head
+{
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+ box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+ width: 100%;
+ height: 100px;
+ background-color: #ff2b85;
+ 
+ font-family:Montserrat, Helvetica, Arial, Lucida, sans-serif;
+ font-style: normal;
+ font-weight: 700;
+ font-size: 14px;
+ line-height:14px;
+ Color: #ffffff;
+}
+#options
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 30px;
+    
+}
+#name
+{
+display: flex;
+gap: 100px;
+}
+input{
+    width: 270px;
+    height: 34px;
+    margin-top: 20px;
+    border-radius: 5px;
+    }
+    h6{
+        font-size: 30px;
+        margin-top: 30px;
+        color: white;
+        margin-left: -100px;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        margin-top: 40px;
+        font-size: 30px;
+    }
+    
+    #showData
+    {
+        display: grid;
+        grid-template-columns: 33% 66%;
+        box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
+        font-family:Montserrat, Helvetica, Arial, Lucida, sans-serif;
+        
+        margin-bottom: 20px;
+        border-radius: 5px;
+
+    }
+    .mainImage{
+        height: 100%;
+        width: 400px;
+    
+        margin-left: 10px;
+        border-radius: 10px;
+    }
+    h1{
+        font-size: 30px;
+        color: white;
+    }
+    #category{
+        font-size: 23px;
+        font-weight: bold;
+    }
+    #description
+    {
+        font-size: 20px;
+        text-align: justify;
+    }
+    #box
+    {
+        margin-top: 30px;
+        
+    }
+    #logo
+    {
+        height: 90px;
+        width: 110px;
+    }
