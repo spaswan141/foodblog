@@ -15,7 +15,7 @@ const navigation =()=>{
      <a href="dayfood.html">Recipe Of the Day</a>
    </div>
    <div>
-     <a href="latest.html">Latest</a>
+     <a href="latest.html">Latest Recipe</a>
    </div>
    </div> 
  </div>
