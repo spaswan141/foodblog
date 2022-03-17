@@ -12,7 +12,7 @@ const navigation =()=>{
      <a href="index.html">Search</a>
    </div>
    <div>
-     <a href="dayfood.html">Receipe Of the Day</a>
+     <a href="dayfood.html">Recipe Of the Day</a>
    </div>
    <div>
      <a href="latest.html">Latest</a>
